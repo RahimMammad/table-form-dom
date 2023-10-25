@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="userForm">
+            <input type="text" id="firstname" placeholder="FirstName"><br><br>
+            <input type="text" id="lastname" placeholder="LastName"><br><br>
+            <input type="number" id="age" placeholder="Age"><br><br>
+            <label for="">Is Married:</label>
+            
+            <select name="" id="marriage">
+                <option value="Single">No</option>
+                <option value="Married">Yes</option>
+            </select><br>
+            <button id="clickBtn" type="submit">Click</button>
+        </form>
+        
+        <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Age</th>
+                        <th>Marriage</th>
+                    </tr>
+                    <tr id="tr-value">
+                        
+                    </tr>
+                </thead>
+        </table>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
